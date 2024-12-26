@@ -17,8 +17,8 @@ export function Header() {
 
   return (
     <header className="w-full my-4">
-      <div className="w-full flex justify-center md:justify-start  px-4">
-        <Image src="/window.svg" alt="IPO Wala" width={100} height={60} />
+      <div className="w-full flex justify-center md:justify-start  pr-4 pt-2">
+        <Image src="/logo1.jpeg" alt="IPO Wala" width={500} height={300} />
       </div>
       <nav className="w-full bg-[#2B547E] text-white">
         <div className="w-full">
