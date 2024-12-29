@@ -1,6 +1,10 @@
+"use client"
+import { useState, useEffect } from "react"
 import { IPOTable } from "@/components/ipo-table"
 import { FAQSection } from "@/components/faq-section"
 import { upcomingIpoFaqs } from "@/data/upcoming-ipo-faqs"
+import axios from "axios"
+
 
 const upcomingIPOData = [
   {
@@ -58,6 +62,37 @@ const previousIPOData = [
 ]
 
 export default function UpcomingIPOPage() {
+  const [upcomingIPOData, setUpcomingIPOData] = useState([])
+  const [previousIPOData, setPreviousIPOData] = useState([])
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    const fetchIPOData = async () => {
+      try {
+        const response = await axios.get('/api/ipo');
+        const response2 = await axios.get('/api/pastIpo');
+        
+        if (response.data) {
+          setUpcomingIPOData(response.data);
+        }
+        
+        if (response2.data?.data) {
+          setPreviousIPOData(response2.data.data);
+        }
+        setLoading(false);
+      } catch (error) {
+        console.error('Error fetching IPO data:', error);
+        setUpcomingIPOData([]);
+        setPreviousIPOData([]);
+      }
+    }
+
+    fetchIPOData();
+  }, []);
+
+
+
   return (
     <div className="space-y-6">
       <h1 className="text-2xl font-bold">Upcoming IPOs 2024 | Latest, Recent & New IPO in 2024</h1>
@@ -74,11 +109,13 @@ export default function UpcomingIPOPage() {
       <IPOTable
         title="List of Upcoming IPOs 2024"
         data={upcomingIPOData}
+        loading={loading}
       />
 
       <IPOTable
         title="List of Previous IPO"
         data={previousIPOData}
+        loading={loading}
       />
       
       <FAQSection faqs={upcomingIpoFaqs} />

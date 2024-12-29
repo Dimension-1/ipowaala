@@ -1,0 +1,138 @@
+[
+    {
+      "CompanyName": "Gabriel Pet Straps Limited",
+      "ListedOn": "07-02-2024",
+      "IssuePrice": 101.00,
+      "ListingDayClose": 120.75,
+      "ListingDayGain": 19.75,
+      "CurrentPrice": 166.25,
+      "GainLoss": 65.25
+    },
+    {
+      "CompanyName": "Kizi Apparels Limited",
+      "ListedOn": "06-08-2024",
+      "IssuePrice": 21.00,
+      "ListingDayClose": 24.30,
+      "ListingDayGain": 3.30,
+      "CurrentPrice": 25.34,
+      "GainLoss": 4.34
+    },
+    {
+      "CompanyName": "Platinum Industries Limited",
+      "ListedOn": "05-03-2024",
+      "IssuePrice": 171.00,
+      "ListingDayClose": 220.90,
+      "ListingDayGain": 49.90,
+      "CurrentPrice": 424.20,
+      "GainLoss": 253.20
+    },
+    {
+      "CompanyName": "Resourceful Automobile Limited",
+      "ListedOn": "29-08-2024",
+      "IssuePrice": 117.00,
+      "ListingDayClose": 122.85,
+      "ListingDayGain": 5.85,
+      "CurrentPrice": 64.01,
+      "GainLoss": -52.99
+    },
+    {
+      "CompanyName": "United Cotfab Limited",
+      "ListedOn": "24-06-2024",
+      "IssuePrice": 70.00,
+      "ListingDayClose": 78.75,
+      "ListingDayGain": 8.75,
+      "CurrentPrice": 45.12,
+      "GainLoss": -24.88
+    },
+    {
+      "CompanyName": "ARKADE DEVELOPERS LIMITED",
+      "ListedOn": "24-09-2024",
+      "IssuePrice": 128.00,
+      "ListingDayClose": 165.85,
+      "ListingDayGain": 37.85,
+      "CurrentPrice": 176.45,
+      "GainLoss": 48.45
+    },
+    {
+      "CompanyName": "Royal Sense Limited",
+      "ListedOn": "19-03-2024",
+      "IssuePrice": 68.00,
+      "ListingDayClose": 122.74,
+      "ListingDayGain": 54.74,
+      "CurrentPrice": 308.00,
+      "GainLoss": 240.00
+    },
+    {
+      "CompanyName": "Vruddhi Engineering Works Limited",
+      "ListedOn": "03-04-2024",
+      "IssuePrice": 70.00,
+      "ListingDayClose": 74.55,
+      "ListingDayGain": 4.55,
+      "CurrentPrice": 235.85,
+      "GainLoss": 165.85
+    },
+    {
+      "CompanyName": "Northern Arc Capital Ltd.",
+      "ListedOn": "24-09-2024",
+      "IssuePrice": 263.00,
+      "ListingDayClose": 323.60,
+      "ListingDayGain": 60.60,
+      "CurrentPrice": 217.80,
+      "GainLoss": -45.20
+    },
+    {
+      "CompanyName": "SRM CONTRACTORS LIMITED",
+      "ListedOn": "03-04-2024",
+      "IssuePrice": 210.00,
+      "ListingDayClose": 236.20,
+      "ListingDayGain": 26.20,
+      "CurrentPrice": 399.00,
+      "GainLoss": 189.00
+    },
+    {
+      "CompanyName": "Akums Drugs and Pharmaceuticals Limited",
+      "ListedOn": "06-08-2024",
+      "IssuePrice": 679.00,
+      "ListingDayClose": 796.35,
+      "ListingDayGain": 117.35,
+      "CurrentPrice": 668.10,
+      "GainLoss": -10.90
+    },
+    {
+      "CompanyName": "Brisk Technovision Limited",
+      "ListedOn": "31-01-2024",
+      "IssuePrice": 156.00,
+      "ListingDayClose": 183.75,
+      "ListingDayGain": 27.75,
+      "CurrentPrice": 154.90,
+      "GainLoss": -1.10
+    },
+    {
+      "CompanyName": "UNICOMMERCE ESOLUTIONS LIMITED",
+      "ListedOn": "13-08-2024",
+      "IssuePrice": 108.00,
+      "ListingDayClose": 210.05,
+      "ListingDayGain": 102.05,
+      "CurrentPrice": 168.95,
+      "GainLoss": 60.95
+    },
+    {
+      "CompanyName": "Gconnect Logitech and Supply Chain Limited",
+      "ListedOn": "03-04-2024",
+      "IssuePrice": 40.00,
+      "ListingDayClose": 44.10,
+      "ListingDayGain": 4.10,
+      "CurrentPrice": 34.05,
+      "GainLoss": -5.95
+    },
+    {
+      "CompanyName": "Faalcon Concepts Limited",
+      "ListedOn": "26-04-2024",
+      "IssuePrice": 62.00,
+      "ListingDayClose": 90.25,
+      "ListingDayGain": 28.25,
+      "CurrentPrice": 57.39,
+      "GainLoss": -4.61
+    }
+  ]
+  
