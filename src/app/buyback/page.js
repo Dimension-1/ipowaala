@@ -1,3 +1,4 @@
+import { FAQSection } from "@/components/faq-section"
 import {
   Table,
   TableBody,
@@ -6,6 +7,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
+import { buybackFaqs } from "@/data/buyback-faqs"
 import Link from "next/link"
 
 const upcomingBuybacks = [
@@ -126,6 +128,9 @@ export default function BuybackPage() {
             ))}
           </TableBody>
         </Table>
+
+        <FAQSection faqs={buybackFaqs} />
+
       </div>
     </div>
   )

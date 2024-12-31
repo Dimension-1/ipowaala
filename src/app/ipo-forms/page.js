@@ -1,4 +1,6 @@
+import { FAQSection } from "@/components/faq-section"
 import { IPOFormsTable } from "@/components/ipo-forms-table"
+import { ipoFormsFaqs } from "@/data/ipo-forms-faqs"
 
 const formsData = [
   {
@@ -62,6 +64,9 @@ export default function IPOFormsPage() {
         title="IPO Forms Download NSE- BSE"
         data={formsData}
       />
+
+      <FAQSection faqs={ipoFormsFaqs} />
+
     </div>
   )
 }
