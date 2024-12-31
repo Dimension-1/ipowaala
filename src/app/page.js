@@ -34,7 +34,7 @@ const smeIPOsData = getSmeIPOs.Table
   }))
   .slice(0, 5); // Take only first 5 IPOs
 
-console.log('SME IPOs:', smeIPOsData); // For debugging
+// console.log('SME IPOs:', smeIPOsData); // For debugging
 
 const recentPosts = [
   {
