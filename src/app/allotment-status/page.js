@@ -1,4 +1,6 @@
 import { AllotmentTable } from "@/components/allotment-table"
+import { FAQSection } from "@/components/faq-section"
+import { allotmentFaqs } from "@/data/allotment-faqs"
 
 const allotmentData = [
   {
@@ -68,6 +70,9 @@ export default function AllotmentStatusPage() {
         title="Check Past IPO Allotment Status 2024"
         data={allotmentData}
       />
+
+      <FAQSection faqs={allotmentFaqs} />
+
     </div>
   )
 }

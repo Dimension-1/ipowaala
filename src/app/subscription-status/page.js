@@ -1,3 +1,4 @@
+import { FAQSection } from "@/components/faq-section"
 import {
   Table,
   TableBody,
@@ -6,6 +7,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
+import { subscriptionFaqs } from "@/data/subscription-faqs"
 
 const subscriptionData = [
   {
@@ -57,6 +59,9 @@ export default function SubscriptionStatusPage() {
             ))}
           </TableBody>
         </Table>
+        
+        <FAQSection faqs={subscriptionFaqs} />
+
       </div>
     </div>
   )
